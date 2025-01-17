@@ -1,0 +1,6 @@
+gnupg
+make.profile
+savedconfig
+make.conf.backup
+package.use/00cpu-flags
+package.use/00video_cards

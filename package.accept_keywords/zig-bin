@@ -1,0 +1,3 @@
+# required by x11-misc/ly-1.0.2::guru
+# required by ly (argument)
+dev-lang/zig-bin ~amd64

@@ -1,0 +1,4 @@
+# required by dev-lang/zig-bin-0.13.0::gentoo
+# required by x11-misc/ly-1.0.2::guru
+# required by ly (argument)
+app-eselect/eselect-zig ~amd64

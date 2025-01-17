@@ -1,0 +1,3 @@
+dev-libs/tree-sitter ~amd64
+dev-libs/tree-sitter-lua ~amd64
+dev-libs/tree-sitter-markdown ~amd64

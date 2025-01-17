@@ -1,0 +1,4 @@
+# required by dev-qt/qtx11extras-5.15.16::gentoo
+# required by app-admin/keepassxc-2.7.9::gentoo
+# required by keepassxc (argument)
+dev-qt/qtgui X

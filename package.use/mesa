@@ -1,0 +1,4 @@
+# required by x11-base/xorg-server-21.1.14::gentoo
+# required by x11-drivers/xf86-input-libinput-1.5.0::gentoo
+# required by x11-base/xorg-drivers-21.1-r2::gentoo
+media-libs/mesa X
