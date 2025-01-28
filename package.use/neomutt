@@ -1,0 +1,1 @@
+mail-client/neomutt sasl notmuch autocrypt idn zstd lmdb gpgme -zlib -gdbm
