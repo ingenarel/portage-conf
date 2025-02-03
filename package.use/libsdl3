@@ -2,4 +2,4 @@
 # required by media-gfx/blender-4.3.2::gentoo[sdl]
 # required by @selected
 # required by @world (argument)
->=media-libs/libsdl3-3.2.0 joystick
+>=media-libs/libsdl3-3.2.0 joystick gles2
