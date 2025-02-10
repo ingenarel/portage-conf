@@ -1,1 +1,231 @@
-media-gfx/blender alembic collada jemalloc jpeg2k
+media-gfx/blender alembic collada jemalloc jpeg2k python_single_target_python3_11 -python_single_target_python3_12
+
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cython-3.0.11 python_targets_python3_11
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/numpy-2.2.2 python_targets_python3_11
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/zstandard-0.23.0 python_targets_python3_11
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/requests-2.32.3 python_targets_python3_11
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-3024.7.22 python_targets_python3_11
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/charset-normalizer-3.4.1 python_targets_python3_11
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-3.10 python_targets_python3_11
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/urllib3-2.3.0 python_targets_python3_11
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-16 python_targets_python3_11
+# required by dev-python/pycparser-2.22::gentoo
+# required by dev-python/cffi-1.17.1::gentoo[-test]
+# required by dev-python/zstandard-0.23.0::gentoo[python_targets_python3_12,python_targets_python3_11,-python_targets_python3_13,-python_targets_python3_10]
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-75.8.0 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-collections-5.1.0 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-4.1.0 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-10.6.0 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-24.2 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/platformdirs-4.3.6 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/wheel-0.45.1 python_targets_python3_11
+# required by dev-python/hatch-vcs-0.4.0::gentoo
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-scm-8.1.0 python_targets_python3_11
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2025.1.15.22 python_targets_python3_11
+# required by dev-python/platformdirs-4.3.6::gentoo
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/flit-core-3.10.1 python_targets_python3_11
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-6.0.1 python_targets_python3_11
+# required by dev-python/jaraco-context-6.0.1::gentoo[python_targets_python3_11,-python_targets_pypy3,-python_targets_python3_10]
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-75.8.0::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/backports-tarfile-1.2.0 python_targets_python3_11
+# required by dev-python/gpep517-16::gentoo
+# required by dev-python/cython-3.0.11::gentoo
+# required by dev-python/meson-python-0.17.1::gentoo
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_11
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pysocks-1.7.1-r2 python_targets_python3_11
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatch-vcs-0.4.0 python_targets_python3_11
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatchling-1.27.0 python_targets_python3_11
+# required by dev-python/hatchling-1.27.0::gentoo[-test]
+# required by dev-python/hatch-vcs-0.4.0::gentoo
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/editables-0.5 python_targets_python3_11
+# required by dev-python/hatchling-1.27.0::gentoo[-test]
+# required by dev-python/hatch-vcs-0.4.0::gentoo
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pathspec-0.12.1 python_targets_python3_11
+# required by dev-python/hatchling-1.27.0::gentoo[-test]
+# required by dev-python/hatch-vcs-0.4.0::gentoo
+# required by dev-python/urllib3-2.3.0::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pluggy-1.5.0 python_targets_python3_11
+# required by dev-python/zstandard-0.23.0::gentoo[python_targets_python3_12,python_targets_python3_11,-python_targets_python3_13,-python_targets_python3_10]
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cffi-1.17.1 python_targets_python3_11
+# required by dev-python/cffi-1.17.1::gentoo[-test]
+# required by dev-python/zstandard-0.23.0::gentoo[python_targets_python3_12,python_targets_python3_11,-python_targets_python3_13,-python_targets_python3_10]
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycparser-2.22 python_targets_python3_11
+# required by dev-python/pycparser-2.22::gentoo[-test]
+# required by dev-python/cffi-1.17.1::gentoo[-test]
+# required by dev-python/zstandard-0.23.0::gentoo[python_targets_python3_12,python_targets_python3_11,-python_targets_python3_13,-python_targets_python3_10]
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/ply-3.11-r2 python_targets_python3_11
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/meson-python-0.17.1 python_targets_python3_11
+# required by dev-python/meson-python-0.17.1::gentoo[-test]
+# required by dev-python/numpy-2.2.2::gentoo
+# required by media-gfx/blender-4.3.2::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyproject-metadata-0.9.0 python_targets_python3_11
