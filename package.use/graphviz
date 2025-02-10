@@ -1,0 +1,5 @@
+# required by media-gfx/graphviz-12.2.1-r1::gentoo
+# required by media-gfx/graphviz (argument)
+>=media-libs/gd-2.3.3-r4 fontconfig
+
+media-gfx/graphviz devil gtk2 gls guile lasi perl postscript python ruby tcl webp
