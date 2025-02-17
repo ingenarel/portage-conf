@@ -828,4 +828,10 @@
 # required by wine (argument)
 >=media-sound/cdparanoia-3.10.2-r8 abi_x86_32
 
+# required by app-emulation/wine-vanilla-10.1::gentoo[vulkan]
+# required by virtual/wine-0-r10::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.4.304.0 abi_x86_32 X
+
 app-emulation/wine-vanilla X -wayland
