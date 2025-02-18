@@ -1,0 +1,1 @@
+dev-util/lua-language-server -lua_single_target_lua5-1 lua_single_target_luajit
