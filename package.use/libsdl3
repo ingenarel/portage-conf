@@ -3,3 +3,9 @@
 # required by @selected
 # required by @world (argument)
 >=media-libs/libsdl3-3.2.0 joystick gles2
+
+# required by media-libs/libsdl2-2.32.50::gentoo-zh
+# required by app-emulation/qemu-9.2.0::gentoo[sdl]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libsdl3-3.2.4 abi_x86_32
