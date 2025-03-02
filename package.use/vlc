@@ -1,1 +1,2 @@
-media-video/vlc aom archive arisub bidi blueray cddb chromaprint david faad fdk fontconfig gme gstreamer kate keyring libass libtiger lua matroska modplug mtp musepack nfs opus theora x265 zvbi X -wayland
+media-video/vlc aom archive arisub bidi blueray chromaprint david faad fdk fontconfig gme gstreamer kate keyring libass libtiger lua matroska modplug mtp musepack nfs opus theora x265 zvbi X -wayland flac jpeg libcaca libnotify mp3 mpeg png speex svg x264 truetype ogg a52
+#vim:tw=0:
